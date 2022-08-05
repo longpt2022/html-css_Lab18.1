@@ -1,0 +1,26 @@
+body::before {
+  display: block;
+  content: "";
+  height: 56px;
+}
+
+.bg-imgs {
+  background-color: #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  height: 70vh;
+}
+
+.bg-img1 {
+  background-image: url(./img/img1.jpg);
+}
+
+.bg-img2 {
+  background-image: url(./img/img2.jpg);
+}
+
+.bg-img3 {
+  background-image: url(./img/img3.jpg);
+}
